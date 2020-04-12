@@ -5,10 +5,10 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class VetController {
+public class OwnerController {
 
-	@RequestMapping("/vets")
-	public String listVets(Model model) {
-		return "vet/index";
+	@RequestMapping("/owners")
+	public String listOwners(Model model) {
+		return "owner/index";
 	}
 }
